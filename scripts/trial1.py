@@ -10,7 +10,7 @@ if __name__ == "__main__":
     model = YOLO(r"best.pt")
 
     # Open video
-    cap = cv2.VideoCapture(r"C:\Users\Goodness Abimbola\Documents\FIRE_SMOKE\videos\vid3.mp4")
+    cap = cv2.VideoCapture("videos/vid3.mp4")
 
     while cap.isOpened():
 
