@@ -1,4 +1,4 @@
-#  Fire & Smoke Detection using YOLO
+#  Fire & Smoke Detection using YOLO 8m
 
 A computer vision project for detecting **fire and smoke in video streams** using a custom-trained YOLO object detection model.
 
@@ -33,11 +33,7 @@ fire_smoke_detection/
 │
 ├── videos/
 │   └── vid3.mp4             # Sample test video
-│
-└── samples/                 # Example detection results
-    ├── detection_01.jpg
-    ├── detection_02.jpg
-    └── detection_03.jpg
+
 
 ## 🧠 Model
 
@@ -58,6 +54,7 @@ requirements.txt
 Install the dependencies with:
 
 pip install -r requirements.txt
+
 
 ##▶️ Running the Detection
 
@@ -94,6 +91,7 @@ videos/vid3.mp4
 
 The video can be used to test the detection pipeline after installing the required dependencies.
 
+
 ## 📸 Sample Detection Results
 
 Example outputs from the trained model are shown below.
@@ -103,6 +101,7 @@ Fire Detection
 Smoke Detection
 
 Fire and Smoke Detection
+
 
 ## 🔍 How It Works
 
@@ -127,6 +126,7 @@ Display Detection Result
 
 Each video frame is passed through the trained YOLO model. When fire or smoke is detected, the model returns the predicted class, bounding box, and confidence score.
 
+
 ## 📊 Detection Output
 
 The system produces bounding boxes around detected objects and displays the predicted class and confidence.
@@ -137,6 +137,7 @@ Fire  0.91
 Smoke 0.84
 
 The exact confidence values depend on the input image/video and model predictions.
+
 
 ## 🎯 Use Cases
 
@@ -167,6 +168,7 @@ False positives caused by objects with similar visual characteristics
 
 Further validation on diverse real-world datasets would be required before deployment in safety-critical environments.
 
+
 ## 🔮 Future Improvements
 
 Possible improvements include:
@@ -194,6 +196,7 @@ ABIMGOOD
 
 GitHub:
 https://github.com/ABIMGOOD
+
 
 📄 License
 
