@@ -35,6 +35,28 @@ fire_smoke_detection/
 │   └── vid3.mp4             # Sample test video
 
 
+## 🔥 Detection Demo
+
+The following recording shows the trained model performing fire and smoke detection on a sample video.
+
+![Fire and Smoke Detection Demo](samples/detection_demo.gif)
+
+## 📸 Detection Results
+
+### Fire Detection
+
+![Fire Detection](samples/detection_01.jpg)
+
+### Smoke Detection
+
+![Smoke Detection](samples/detection_02.jpg)
+
+### Fire and Smoke Detection
+
+![Fire and Smoke Detection](samples/detection_03.jpg)
+
+
+
 ## 🧠 Model
 
 The project uses a custom-trained YOLO object detection model.
