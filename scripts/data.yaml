@@ -1,0 +1,8 @@
+path: C:\Users\Goodness Abimbola\Documents\FIRE_SMOKE\dataset
+
+train: C:\Users\Goodness Abimbola\Documents\FIRE_SMOKE\dataset\train\images
+val: C:\Users\Goodness Abimbola\Documents\FIRE_SMOKE\dataset\valid\images
+test: C:\Users\Goodness Abimbola\Documents\FIRE_SMOKE\dataset\test\images
+
+nc: 2
+names ['fire','smoke']

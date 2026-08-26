@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# YOLO training outputs
+runs/
+
+# YOLO cache
+*.cache
+
+# Test videos
+test_videos/
+*.avi
+*.mov
+*.mkv
+
+# Pretrained models
+yolov8m.pt
+yolo26n.pt
+
+# Training checkpoints
+last.pt
+
+# Project data
+dataset/
+FIRE/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore videos by default
+videos/*
+# Allow the specific test video
+!videos/vid3.mp4
