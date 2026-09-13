@@ -6,7 +6,7 @@ The project contains a trained model, inference script, sample test video, and e
 
 ---
 
-## 🚀 Features
+## Features
 
 - Fire and smoke detection using YOLO
 - Video-based inference using OpenCV
@@ -18,7 +18,7 @@ The project contains a trained model, inference script, sample test video, and e
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 fire_smoke_detection/
 │
@@ -35,13 +35,13 @@ fire_smoke_detection/
 │   └── vid3.mp4             # Sample test video
 
 
-## 🔥 Detection Demo
+## Detection Demo
 
 The following recording shows the trained model performing fire and smoke detection on a sample video.
 
 ![Fire and Smoke Detection Demo](samples/detection_demo.gif)
 
-## 📸 Detection Results
+## Detection Results
 
 ### Fire Detection
 
@@ -57,7 +57,7 @@ The following recording shows the trained model performing fire and smoke detect
 
 
 
-## 🧠 Model
+## Model
 
 The project uses a custom-trained YOLO object detection model.
 
@@ -67,7 +67,7 @@ best.pt
 
 The model is used to identify fire and smoke objects within video frames and return bounding boxes with confidence scores.
 
-## 🛠️ Requirements
+## Requirements
 
 The project requires Python and the packages listed in:
 
@@ -78,7 +78,7 @@ Install the dependencies with:
 pip install -r requirements.txt
 
 
-##▶️ Running the Detection
+## Running the Detection
 
 Clone the repository:
 
@@ -105,7 +105,7 @@ and opens the sample video:
 cap = cv2.VideoCapture("videos/vid3.mp4")
 
 
-## 🎥 Sample Test Video
+## Sample Test Video
 
 A sample test video is included in:
 
@@ -114,7 +114,7 @@ videos/vid3.mp4
 The video can be used to test the detection pipeline after installing the required dependencies.
 
 
-## 📸 Sample Detection Results
+## Sample Detection Results
 
 Example outputs from the trained model are shown below.
 
@@ -125,7 +125,7 @@ Smoke Detection
 Fire and Smoke Detection
 
 
-## 🔍 How It Works
+## How It Works
 
 The detection pipeline is based on the following process:
 
@@ -149,7 +149,7 @@ Display Detection Result
 Each video frame is passed through the trained YOLO model. When fire or smoke is detected, the model returns the predicted class, bounding box, and confidence score.
 
 
-## 📊 Detection Output
+## Detection Output
 
 The system produces bounding boxes around detected objects and displays the predicted class and confidence.
 
@@ -161,7 +161,7 @@ Smoke 0.84
 The exact confidence values depend on the input image/video and model predictions.
 
 
-## 🎯 Use Cases
+## Use Cases
 
 Potential applications include:
 
@@ -174,7 +174,7 @@ Early warning systems
 Robotics and autonomous monitoring platforms
 
 
-## ⚠️ Limitations
+## Limitations
 
 This project is intended as a computer vision prototype and should not be considered a certified fire safety system.
 
@@ -191,7 +191,7 @@ False positives caused by objects with similar visual characteristics
 Further validation on diverse real-world datasets would be required before deployment in safety-critical environments.
 
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Possible improvements include:
 
@@ -206,7 +206,7 @@ Integration with robotics and surveillance systems
 Dashboard for monitoring multiple camera feeds
 
 
-##📌 Project Status
+## Project Status
 
 Current status: Working prototype
 
@@ -220,6 +220,6 @@ GitHub:
 https://github.com/ABIMGOOD
 
 
-📄 License
+ License
 
 This project is provided for educational and research purposes.
